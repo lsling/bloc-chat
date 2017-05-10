@@ -1,6 +1,24 @@
- body {
-     font-family: 'Raleway', sans-serif;
-     color: black;
-     min-height: 100%;
-     padding-bottom: 200px;
+.sidebar {
+    background-color: #253736;
+    margin: -20px 0 0 -10px; 
+    width: 250px;
+    height: 100%;
+    position: absolute;
+    padding: 10px 0 0 25px;
+}
+
+body {
+     font-family: 'Quicksand', sans-serif;
+     color: #03E7CC;
  }
+
+h1 {
+    font-family: 'Satisfy', sans-serif;
+    font-size: 52px;
+    color: white;
+}
+
+p {
+    font-size: 18px;
+}
+
