@@ -6,10 +6,16 @@
 
     Room.all = rooms;
 
+    Room.add = function(room, $uibModal) {
+        rooms.$add({ name: ""})
+    }
+
+
     return Room;
   }
 
   angular
-    .module('blocChat')
+    .module('blocChat', ['ui.bootstrap'])
     .factory('Room', ['$firebaseArray', Room]);
 })();
+
