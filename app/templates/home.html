@@ -1,7 +1,11 @@
-<div class="sidebar">
+<section class="sidebar">
     <h1>Bloc Chat</h1>
+    <button type="button" ng-click="home.open()">Add Room</button>
         <div ng-repeat="room in home.rooms">
-            <p>{{ room.$value }}
-            </p>
+            <p>{{ room.$value }}</p>
         </div>
-</div>
+</section>
+
+<section>
+    <p>{{ main.chatRoomTitle }}</p>
+</section>
