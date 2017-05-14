@@ -1,8 +1,8 @@
 (function() {
     function ModalCtrl($uibModalInstance, Room) {
         
-        this.createRoom = function(addName) {
-            Room.createRoom(addName);
+        this.createRoom = function(name) {
+            Room.createRoom(name);
             $uibModalInstance.close();
         };
         

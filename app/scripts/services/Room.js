@@ -10,10 +10,8 @@
         rooms.$add({ })
     }
 
-    Room.createRoom = function(addName) {
-        rooms.$add(
-            { name: addName }
-        );
+    Room.createRoom = function(name) {
+        rooms.$add(name);
     };
 
     return Room;
