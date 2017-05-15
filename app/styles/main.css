@@ -1,23 +1,89 @@
+button {
+    -webkit-appearance: none;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    background-color: #777;
+    border: none;
+    padding: 3px 15px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+button:hover {
+    background-color: #006699; 
+    color: white;
+}
+
+.button-space {
+    margin: 28px 0 40px 25px;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+button[type=submit] {
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+button[type=button] {
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
 .sidebar {
-    background-color: #253736;
+    background-color: #F2F2F2;
     margin: -20px 0 0 -10px; 
-    width: 250px;
+    width: 370px;
     height: 100%;
     position: absolute;
     padding: 10px 0 0 25px;
 }
 
-body {
-     font-family: 'Quicksand', sans-serif;
-     color: #03E7CC;
+.site-title {
+    font-family: 'Sanchez', serif;
+    font-size: 38px;
+    color: #006699;
+    float: left;
+}
+
+.room-list {
+     font-family: 'Open Sans', sans-serif;
+     font-size: 18px;
+     color: #777;
+     float: none;
  }
 
-h1 {
-    font-family: 'Satisfy', sans-serif;
-    font-size: 52px;
-    color: white;
+input:focus{
+    color: #006699; 
 }
 
-p {
-    font-size: 18px;
+.modal-title {
+    font-family: 'Sanchez', serif;
+    color: #006699;
+    font-size: 24px;
+    padding: 20px 0 15px 0;
+    overflow: auto;
 }
+
+.modal-text {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-size: 14px;
+    padding: 0 0 30px 0;
+
+}
+
+.modal-window {
+    width: 600px;
+    text-align: center;
+    margin-left: 20%;
+    margin-top: 15%;
+}
+
+

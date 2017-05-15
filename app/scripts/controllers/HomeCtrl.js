@@ -7,6 +7,7 @@
                 animation: true,
                 templateUrl: '/templates/room-modal.html',
                 controller: 'ModalCtrl as modal',
+                windowClass: 'modal-window'
             });
             
             modalInstance.result.then(function(name) {
