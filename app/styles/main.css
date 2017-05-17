@@ -59,8 +59,13 @@ button[type=button] {
      float: none;
  }
 
-input:focus{
+input {
+    width: 200px;
+}
+
+input:focus {
     color: #006699; 
+    width: 200px;
 }
 
 .modal-title {
@@ -86,4 +91,6 @@ input:focus{
     margin-top: 15%;
 }
 
-
+.modal-content {
+    width: 475px;
+}
