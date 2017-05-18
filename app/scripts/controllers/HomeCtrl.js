@@ -25,5 +25,5 @@
 
     angular
         .module('blocChat')
-        .controller('HomeCtrl', ['$scope', '$uibModal', 'Room', 'Message', HomeCtrl]);
+        .controller('HomeCtrl', ['$cookies', '$scope', '$uibModal', 'Room', 'Message', HomeCtrl]);
 })();
