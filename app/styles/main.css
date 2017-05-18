@@ -94,3 +94,28 @@ input:focus {
 .modal-content {
     width: 475px;
 }
+
+.messages-container {
+    padding-left: 400px;
+}
+
+.room-title {
+    font-family: 'Sanchez', serif;
+    color: #006699;
+    font-size: 24px;
+}
+
+.username {
+    font-family: 'Open Sans', sans-serif;
+    color: #777;
+    font-size: 18px;
+    float: left;
+}
+
+.sent-at {
+    font-family: 'Open Sans', sans-serif;
+    color: #777;
+    font-size: 18px;
+    float: right;
+    padding-right: 20px;
+}

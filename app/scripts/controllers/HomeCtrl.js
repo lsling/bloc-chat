@@ -1,8 +1,6 @@
 (function() {
     function HomeCtrl($scope, $uibModal, Room, Message) {
-        
-        this.currentRoom = null;
-        
+                
         this.rooms = Room.all;
         
         this.open = function() {
@@ -18,11 +16,12 @@
 			});
         };
         
-        this.viewRoom = function(room) {
-            room.currentRoom = room;
-            room.messages = Message.getByRoomId(room.currentRoom.$id);
+        this.setCurrentRoom = function(room) {
+            this.currentRoom = room;
+            this.messages = Message.getByRoomId(this.currentRoom.$id);
+            };
         }
-    }
+    
 
     angular
         .module('blocChat')
