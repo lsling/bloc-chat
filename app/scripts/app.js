@@ -20,6 +20,12 @@
                  templateUrl: '/templates/room-modal.html'
              });
 
+          $stateProvider
+             .state('cookies', {
+                 url: '/',
+                 controller: 'CookiesCtrl as cookies',
+                 templateUrl: '/templates/new-user-modal.html'
+             });
      }
     
      angular

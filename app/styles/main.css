@@ -53,11 +53,13 @@ button[type=button] {
 }
 
 .room-list {
-     font-family: 'Open Sans', sans-serif;
-     font-size: 18px;
-     line-height: 36px;
-     color: #777;
-     float: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    line-height: 36px;
+    color: #777;
+    float: none;
+    cursor: pointer; 
+    cursor: hand;
  }
 
 input {
@@ -100,10 +102,17 @@ input:focus {
     padding-left: 400px;
 }
 
+/** alternating background color for message rows, maybe move to username? 
+div.messages-list.ng-scope > div:nth-of-type(odd) {
+    background: #e0e0e0;
+}
+**/
+
 .room-title {
     font-family: 'Sanchez', serif;
     color: #006699;
     font-size: 24px;
+    padding-top: 10px;
 }
 
 .username {

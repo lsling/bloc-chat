@@ -1,10 +1,9 @@
-<!--
 <div>
     <h3 class="modal-title">Create New User Name</h3>
 </div>
 <div>
     <form class="modal-text">
-        <input ng-model="modal.user" required>
-        <button type="submit" ng-click="modal.createName()"  ng-disabled="modal.user == null">Create User Name</button>
+        <input ng-model="cookies.username" name="username" required>
+        <button type="submit" ng-click="cookies.newUser()"  ng-disabled="cookies.username == null">Create</button>
     </form>
-</div>-->
+</div>
