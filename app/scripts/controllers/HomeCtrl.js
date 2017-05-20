@@ -21,8 +21,16 @@
             this.messages = Message.getByRoomId(this.currentRoom.$id);
             };
         }
-    
 
+    
+        this.sendMessage = function() {
+            if(this.content) {
+              Message.send(this.content, this.currentRoom.$id);
+              this.content = '';
+            }    
+    
+        }
+        
     angular
         .module('blocChat')
         .controller('HomeCtrl', ['$scope', '$uibModal', 'Room', 'Message', HomeCtrl]);

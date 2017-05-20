@@ -14,3 +14,9 @@
             <div class="sent-at">{{ messages.sentAt }}</div>
         </div>
 </section>
+
+<section class="send-message">
+    <hr style="margin: 0px">
+        <input class="message-input" type="text" name="input" placeholder="Type your message here" class ng-model='home.newMessage.content'>
+        <button class="send-button" type="button" ng-click="home.sendMessage()">Send Message</button>
+</section>
