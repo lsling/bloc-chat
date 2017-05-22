@@ -125,7 +125,8 @@ div.messages-list.ng-scope > div:nth-of-type(odd) {
     font-family: 'Open Sans', sans-serif;
     color: #777;
     font-size: 18px;
-    float: left;
+    line-height: 34px;
+    display: inline-block;
 }
 
 .sent-at {

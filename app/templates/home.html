@@ -11,7 +11,7 @@
         <div class="messages-list" ng-repeat="messages in home.messages">
             <div class="username"><strong>{{ messages.username }}:</strong> {{ messages.content }}
             </div>
-            <div class="sent-at">{{ messages.sentAt }}</div>
+            <div class="sent-at">{{ messages.sentAt | date: "shortTime" }}</div>
         </div>
 </section>
 
