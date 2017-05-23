@@ -1,6 +1,7 @@
 (function() {
     function HomeCtrl($scope, $uibModal, Room, Message, $cookies) {
-                
+        
+        //Displays queried rooms in the view.         
         this.rooms = Room.all;
         this.currentUser = $cookies.get('blocChatCurrentUser');
         this.currentRoom = null;
