@@ -1,3 +1,7 @@
+ /**
+ * @function ModalCtrl
+ * @desc Creates a new room, then dismisses the modal 
+ */
 (function() {
     function ModalCtrl($uibModalInstance, Room) {
         

@@ -1,3 +1,7 @@
+ /**
+ * @function CookiesCtrl (controller)
+ * @desc adds a new username to cookies
+ */
 (function() {
     function CookiesCtrl($uibModalInstance, $cookies) {
         

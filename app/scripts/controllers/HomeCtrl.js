@@ -1,3 +1,7 @@
+ /**
+ * @function HomeCtrl (controller)
+ * @desc Opens the modal to create a new room, sets active room, sends messages using username
+ */
 (function() {
     function HomeCtrl($scope, $uibModal, Room, Message, $cookies) {
         

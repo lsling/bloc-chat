@@ -1,3 +1,8 @@
+ /**
+ * @function BlocChatCookies (service)
+ * @desc Checks for existing username, invokes modal if user does not exist, saves the created cookie
+ * @param {string} $cookies
+ */
 (function() {
   function BlocChatCookies($cookies, $uibModal) {
     var currentUser = $cookies.get('blocChatCurrentUser');
