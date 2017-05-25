@@ -18,8 +18,8 @@
       
     // Sends a message object and submits it to the Firebase server
     Message.send = function(newMessage) {
-        messages.$add(newMessage);
         newMessage.sentAt = firebase.database.ServerValue.TIMESTAMP;
+        messages.$add(newMessage);
     };
       
     return Message;
